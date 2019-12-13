@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+    
+    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title> carobear </title>
+    </head>
+    
+    
+    <body>
+        
+        <div class="container-full-bg" id="otherContainer">
+            <img id="otherTop" src="otherTop.svg">
+        </div>
+        
+        <!--
+        <div class="row" id="newestBar">
+            <div class="col-xs-6 col-sm-3">
+                <a href="index.html" class="button" id="navBtnOther">home</a>
+            </div>
+            
+            <div class="col-xs-6 col-sm-3">
+                <a href="art.html" class="button" id="navBtnOther">art</a>
+            </div>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            <div class="col-xs-6 col-sm-3">
+                <a href="projects.html" class="button" id="navBtnOther">projects</a>
+            </div>
+            
+            <div class="col-xs-6 col-sm-3">
+                <a href="interests.html" class="button" id="navBtnOther">interests</a>
+            </div>
+        
+        
+        
+        </div>
+-->
+        
+       <div id="newNavBar">
+            <a href="index.html" class="button" id="navBtnOther">home</a>
+            <div class="clearfix visible-xs"></div>
+            <a href="art.html" class="button" id="navBtnOther">art</a>
+            <div class="clearfix visible-xs"></div>
+            <a href="projects.html" class="button" id="navBtnOther">projects</a>
+            <div class="clearfix visible-xs"></div>
+            <a href="interests.html" class="button" id="navBtnOther">interests</a>
+            <br>
+            <img src="bottomBar.svg">
+        </div>
+        
+        <!--
+        <nav class="navbar navbar-default navbar-expand-md navbar-custom">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href= "index.html"> home </a></li>
+                    <li  class="active"><a href="art.html"> art </a></li>
+                    <li><a href="projects.html"> projects </a></li> 
+                    <li><a href="interests.html"> interests </a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+-->
+        
+         <div class="container-full-bg" id="artWrapped">
+        <section>
+            
+
+            <div class= "row">
+                <div class= "col-sm-4">
+                    <img class= "creature" id="greengirl" src= "greengirl.png" style="width:80%">
+                    <div id="greengirlModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="greengirl1">
+                    </div>
+
+                    <img class= "creature" id="colorcar" src= "colorcar.png" style="width:80%">
+                    <div id="colorcarModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="colorcar1">
+                    </div>
+
+                    <img class= "creature" id="yellowgirl" src= "yellowgirl.png" style="width:80%">
+                    <div id="yellowgirlModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="yellowgirl1">
+                    </div>
+
+                    <img class= "creature" id= "mess" src= "redmess.png" style="width: 100%">
+                        <div id="messModal" class="modal">
+                            <span class="close">bye</span>
+                            <img class="modal-content" id="mess1">
+                        </div>
+
+                </div>
+                <div class= "col-sm-4">
+
+                    <img class= "creature" id= "colorgirl" src= "colorgirl.png" style="width:80%">
+
+                    <div id="colorgirlModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="colorgirl1">
+                    </div>
+
+                    <img class= "creature" id= "tucan" src= "tucanz.png" style="width:80%">
+
+                    <div id="tucanModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="tucan1">
+                    </div>
+
+
+
+                    <img class= "creature" id= "shape" src= "shape.png" style="width: 100%">
+                        <div id="shapeModal" class="modal">
+                            <span class="close">bye</span>
+                            <img class="modal-content" id="shape1">
+                        </div>
+                </div>
+                <div class= "col-sm-4">
+                    <img class= "creature" id= "redgirl" src= "redgirl.png" style="width:80%">
+                    <div id="redgirlModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="redgirl1">
+                    </div>
+
+                    <img class= "creature" id="car" src= "car.png" style="width:80%">
+                    <div id="carModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="car1">
+                    </div>
+
+                    <img class= "creature" id="purplegirl" src= "purplegirl.png" style="width:80%">
+                    <div id="purplegirlModal" class="modal">
+                        <span class="close">bye</span>
+                        <img class="modal-content" id="purplegirl1">
+                    </div>
+
+                    <img class= "creature" id= "blocks" src= "abstract2.png" style="width: 100%">
+
+                        <div id="blocksModal" class="modal">
+                            <span class="close">bye</span>
+                            <img class="modal-content" id="blocks1">
+                        </div>
+
+                </div>
+            </div>
+            
+         </section>
+        </div>
+        
+        <script>
+            /* modal for greengirl */
+            var modal = document.getElementById('greengirlModal');
+            var img = document.getElementById('greengirl');
+            var modalImg = document.getElementById("greengirl1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            /* modal for colorcar */
+            var modal = document.getElementById('colorcarlModal');
+            var img = document.getElementById('colorcar');
+            var modalImg = document.getElementById("colorcar1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[1];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for yellowgirl */
+            var modal = document.getElementById('yellowgirlModal');
+            var img = document.getElementById('yellowgirl');
+            var modalImg = document.getElementById("yellowgirl1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[2];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for colorgirl */
+            var modal = document.getElementById('colorgirlModal');
+            var img = document.getElementById('colorgirl');
+            var modalImg = document.getElementById("colorgirl1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[3];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for tucan */
+            var modal = document.getElementById('tucanModal');
+            var img = document.getElementById('tucan');
+            var modalImg = document.getElementById("tucan1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[4];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for redgirl */
+            var modal = document.getElementById('redgirlModal');
+            var img = document.getElementById('redgirl');
+            var modalImg = document.getElementById("redgirl1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[5];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            /* modal for car */
+            var modal = document.getElementById('carModal');
+            var img = document.getElementById('car');
+            var modalImg = document.getElementById("car1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[6];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for purplegirl */
+            var modal = document.getElementById('purplegirlModal');
+            var img = document.getElementById('purplegirl');
+            var modalImg = document.getElementById("purplegirl1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[7];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for shape */
+            var modal = document.getElementById('shapeModal');
+            var img = document.getElementById('shape');
+            var modalImg = document.getElementById("shape1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[8];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            /* modal for mess */
+            var modal = document.getElementById('messModal');
+            var img = document.getElementById('mess');
+            var modalImg = document.getElementById("mess1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[9];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+            /* modal for blocks */
+            var modal = document.getElementById('blocksModal');
+            var img = document.getElementById('blocks');
+            var modalImg = document.getElementById("blocks1");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+            var span = document.getElementsByClassName("close")[10];
+
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
